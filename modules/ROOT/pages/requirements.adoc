@@ -24,7 +24,7 @@
 .Для работы в Менеджере решений необходим один из следующих веб-браузеров:
 * {edge-c} (на базе Chromium).
 * {chrome-v} (для OC Windows и для OC Android).
-* Google Chromium {chromium-v} и выше (для ОС Linux).
+* Google Chromium {chromium-v} (для ОС Linux).
 * {yandex} (для ОС Windows).
 * {safari}.
 
