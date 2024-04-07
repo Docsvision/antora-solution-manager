@@ -45,7 +45,7 @@
     },
 ----
 +
-Формат строк подключения для СУБД Microsoft SQL Server и PostgreSQL приведен в пункте xref:install.adoc#format[Установка {of-sm}].
+Формат строк подключения для СУБД {mssql} Server и {pgsql} приведен в пункте xref:install.adoc#format[Установка {of-sm}].
 +
 . Сохраните изменения.
 . Перезапустите службу {of-sm}.
