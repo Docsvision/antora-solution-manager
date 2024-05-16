@@ -4,11 +4,12 @@ prerelease: true
 title: Менеджер решений
 asciidoc:
   attributes:
-    pl-v: '5.5.5'
+    pl-v: '5.5.5 сборка '
     win-v: '5.5.4'
     bo-v: '5.5.5'
     wf-v: '5.5.3'
-    ws-v: '5.5.2'
+    ws-v: '5.5.2, сборка 125'
+    mc-v: '5.5.1, сборка 000'
 #    chrome-v: '77.0.3865.90'
 #    edge-v: '44.17763.1.0'
     mr: ''
