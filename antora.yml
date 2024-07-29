@@ -4,7 +4,7 @@ prerelease: true
 title: Менеджер решений
 asciidoc:
   attributes:
-    pl-v: '5.5.5 сборка '
+    pl-v: '5.5.5 сборка 7914'
     win-v: '5.5.4'
     bo-v: '5.5.5'
     wf-v: '5.5.3'
