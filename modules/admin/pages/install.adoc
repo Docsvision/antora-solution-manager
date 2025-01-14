@@ -55,7 +55,7 @@ include::5.5.1@mgmtconsole:admin:install.adoc[tags=pgsql]
 Если используется Windows-аутентификация для {mssql} Server, указанные права должны быть выданы учетной записи службы {of-sm}. Учетная запись должна быть включена в группу безопасности *Администраторы* на сервере {dv}.
 //end::rights[]
 
-Адрес {of-sett-serv} указывается в формате `\http://домен:порт`, например `\http://settings.service.com:5200`.
+Адрес xref:mgmtconsole:admin:settings-storage-url.adoc[{of-sett-serv}] указывается в формате `\http://полное-имя-сервера.домен:порт`, например `\http://example.domain.com:5200`.
 ****
 +
 . Нажмите кнопку *Готово*, чтобы закрыть мастер установки.
