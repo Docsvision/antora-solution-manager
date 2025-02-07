@@ -103,7 +103,7 @@ include::dev@mgmtconsole:admin:install.adoc[tags=string]
 
 _{sm}_ и _Расширение для Службы {ws}_ удаляются стандартным образом средствами ОС:
 
-include::6.1@platform:admin:partial$delete.adoc[]
+include::dev@platform:admin:partial$delete.adoc[]
 
 // [WARNING]
 // ====
