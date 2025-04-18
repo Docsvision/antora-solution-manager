@@ -13,7 +13,7 @@
 * Astra Linux Special Edition {l-1-1}.
 * {l-2}.
 // раскомментировать ниже и закомментировать выше после GBL-4181
-// include::CU5@install-linux:ROOT:requirements-software.adoc[tags=oslist]
+// include::6.1@install-linux:ROOT:requirements-software.adoc[tags=oslist]
 
 .Обязательное программное обеспечение:
 * Microsoft {asp-bundle} и выше.
