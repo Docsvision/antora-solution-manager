@@ -96,7 +96,7 @@ sudo systemctl start dvsolutionmanager
 . Ознакомьтесь с разделом "xref:admin-functions.adoc[]", чтобы предоставить пользователям доступ к модулю, настроить путь к временной папке, изменить подключение к базе данных {of-sm} и выполнить другие задачи.
 . Ознакомьтесь с разделом "<<mgmt-console,Настройки в {of-mc}>>", чтобы выполнить необходимые для работы модуля настройки системы.
 
-include::dev@mgmtconsole:admin:install.adoc[tags=string]
+include::new-admin-console@settings-service:admin:install.adoc[tags=string]
 
 [#uninstall]
 == Удаление модуля и расширения для Службы {ws}
