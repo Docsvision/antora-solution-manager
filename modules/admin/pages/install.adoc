@@ -170,7 +170,7 @@ include::dev@platform:admin:partial$delete.adoc[]
 . Настройте аутентификацию в Active Directory (требуется не для всех сервисов). Для работы Kerberos аутентификации в ActiveDirectory, необходимо получить keytab-файл.
 +
 --
-include::dev@mgmtconsole:admin:provide-access.adoc[tags=keytab]
+include::6.1@mgmtconsole:admin:provide-access.adoc[tags=keytab]
 --
 
 [#mgmt-console]
