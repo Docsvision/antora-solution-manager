@@ -1,6 +1,6 @@
 name: solutionmngr
-version: '5.5.2'
-prerelease: false
+version: 'GBL-2821'
+prerelease: true
 title: Менеджер решений
 asciidoc:
   attributes:
