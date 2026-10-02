@@ -100,21 +100,7 @@ image::install-confirm.png[Мастер установки серверной ч
      "account@domain.com" <.>
     ]
   },
-  "NLog": {
-    "targets": {
-      "logFile": {
-        "type": "File",
-        "fileName": "${gdc:baseLogFolder}/docsvision/solutionmanager/${shortdate}_SolutionManager.log", <.>
-        "layout": "[${longdate}][${level}][${callsite}] ${message} ${exception:format=tostring,Data}"
-      }
-    },
-    "rules": [
-      {
-        "logger": "*",
-        "minLevel": "Warn", <.>
-        "writeTo": "logFile"
-      }
-    ]
+  "NLog": { <.>
   }
 }
 ----
@@ -126,10 +112,7 @@ image::install-confirm.png[Мастер установки серверной ч
 <.> `Catalogs` -- см. подробнее <<domain,Настройка работы в домене>>.
 <.> `Docsvision SolutionManager Administrators` -- пользователи, которым разрешен вход в {sm}. Обратите внимание, что в группе массив строк, а не строка.
 <.> `UserName` -- имя пользователя. Может быть указано в формате user@domain.com или domain\user.
-<.> `fileName` -- путь к файлу журнала настраивается в параметре `\{gdc:baseLogFolder}`. По умолчанию используется каталог `/var/log/docsvision/solutionmanager`.
-<.> `minLevel` -- уровень журналирования, по умолчанию используется `Warn`.
-+
-Дополнительная информация по настройке журналирования приведена https://nlog-project.org[на сайте] компонента NLog.
+<.> `NLog` -- настройки журналирования, см. подробнее "xref:admin-functions.adoc#work-log[Журнал работы {of-sm}]".
 --
 +
 . Запустите службу {of-sm}.
