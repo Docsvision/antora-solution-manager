@@ -12,7 +12,7 @@ asciidoc:
     mr: ''
     sms-new: 'dvsolutionmanager'
     catalog: '/usr/lib/docsvision/solutionmanager/'
-    log: '/var/log/docsvision/solutionmanager'
+    log-sm: '`/var/log/docsvision/solutionmanager` для Linux и `C:\ProgramData\Docsvision\SolutionManager` для Windows'
     no-root-since: '{sm-no-root-since}'
     of-what: '{of-sm}'
 

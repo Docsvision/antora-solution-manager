@@ -86,7 +86,13 @@ sudo nano {catalog}appsettings.json
 
 .Для анализа работы {of-sm} администратору доступны следующие журналы:
 * <<ws-log,Общий журнал работы {of-sm}>> -- на компьютере с модулем _Служба {ws}_.
-* <<sm-log,Журнал работы службы {of-sm}>> -- хранится в папке `{log}` на компьютере с модулем _{sm}_.
+* {blank}
++
+<<sm-log,Журнал работы службы {of-sm}>> -- хранится на компьютере с модулем _{sm}_ в папке:
+[subs="specialchars,attributes,quotes"]
+{log-sm}.
+
+// антиприлипака
 
 [#sm-log]
 === Журнал работы службы {of-sm}
@@ -121,11 +127,26 @@ include::GBL-3610@engineer:ROOT:partial$excerpts.adoc[tags=nlog-json]
         "type": "JsonLayout", <.>
         "includeAllProperties": true, <.>
         "attributes": [ <.>
-          { "name": "timestamp", "layout": "${date:format=yyyy-MM-dd HH\\:mm\\:ss.fff}" }, <.>
-          { "name": "level", "layout": "${level:upperCase=true}" }, <.>
-          { "name": "module", "layout": "${logger}" },
-          { "name": "message", "layout": "${message:withException=true}" },
-          { "name": "processId", "layout": "${processid}" }
+          {
+            "name": "timestamp", <.>
+            "layout": "${date:format=yyyy-MM-dd HH\\:mm\\:ss.fff}" <.>
+          },
+          {
+            "name": "level",
+            "layout": "${level:upperCase=true}"
+          },
+          {
+            "name": "module",
+            "layout": "${logger}"
+          },
+          {
+            "name": "message",
+            "layout": "${message:withException=true}"
+          },
+          {
+            "name": "processId",
+            "layout": "${processid}"
+          }
         ]
       }
     },
