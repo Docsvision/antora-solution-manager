@@ -112,7 +112,7 @@ image::install-confirm.png[Мастер установки серверной ч
 <.> `Catalogs` -- см. подробнее <<domain,Настройка работы в домене>>.
 <.> `Docsvision SolutionManager Administrators` -- пользователи, которым разрешен вход в {sm}. Обратите внимание, что в группе массив строк, а не строка.
 <.> `UserName` -- имя пользователя. Может быть указано в формате user@domain.com или domain\user.
-<.> `NLog` -- настройки журналирования, см. подробнее "xref:admin-functions.adoc#work-log[Журнал работы {of-sm}]".
+<.> `NLog` -- настройки журналирования, см. подробнее "xref:logs.adoc[]".
 --
 +
 . Запустите службу {of-sm}.

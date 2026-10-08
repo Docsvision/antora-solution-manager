@@ -2,5 +2,6 @@
 ** xref:install.adoc[]
 ** xref:update-module.adoc[]
 ** xref:admin-functions.adoc[]
+** xref:logs.adoc[]
 ** xref:potential-errors.adoc[]
 ** xref:ldaps-ald.adoc[]
