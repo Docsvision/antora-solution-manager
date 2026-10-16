@@ -14,6 +14,8 @@
 [subs="specialchars,attributes,quotes"]
 {log-sm}.
 
+// антиприлипака
+
 [#sm-log]
 === Журнал работы службы {of-sm}
 
@@ -25,7 +27,9 @@ include::GBL-3610@engineer:ROOT:partial$excerpts.adoc[tags=nlog-json]
 [#ws-log]
 === Записи расширения в журнале {ws}
 
-Расширение {of-sm} записывает информацию в xref:workerservice:admin:work-log.adoc[журнал Службы {ws}]. Чтобы записи в журнале можно было отличить, в журнальную запись добавляется имя процесса, созданного в {of-mc} в следующем виде:
+Расширение {of-sm} записывает информацию в xref:workerservice:admin:work-log.adoc[журнал Службы {ws}].
+// tag::ext-records[]
+Записи в журнале можно отличить по имени процесса из {of-mc}, добавляемого к ней:
 
 [source,json]
 ----
@@ -40,6 +44,7 @@ include::GBL-3610@engineer:ROOT:partial$excerpts.adoc[tags=nlog-json]
 ----
 <.> `process` -- в параметр записывается имя процесса в {of-mc}.
 <.> `processId` -- в параметр записывается идентификатор процесса.
+// end::ext-records[]
 
 [#config]
 == Настройка журналирования
