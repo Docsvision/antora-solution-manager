@@ -60,7 +60,7 @@ image::install-components.png[Выбор устанавливаемых комп
 image::install-confirm.png[Мастер установки серверной части {of-sm}]
 +
 . На следующем шаге нажмите кнопку *Готово*, чтобы закрыть мастер установки.
-. Скорнфигурируйте {sm} согласно <<config-sm,инструкции>>.
+. Сконфигурируйте {sm} согласно <<config-sm,инструкции>>.
 
 // end::windows[]
 
@@ -83,16 +83,18 @@ image::install-confirm.png[Мастер установки серверной ч
       "Default": "Warning"
     }
   },
+  "DocsVision": {
+    "SettingsService": {
+      "ConnectionString": "http://settings.domain.com:5200/api", <.>
+      "ApiKey": "SettingsServiceApiKey" <.>
+    }
+  },
   "AllowedHosts": "*",
   "SolutionManager": {
-    "SettingsService": {
-      "ConnectionString": "ConnectAddress=http://settings.domain.com:5200/api", <.>
-      "ApiKey": "SettingsServiceApiKey" <.>
-    },
     "StorageSettings": {
       "ConnectionString": "CONNECTION-STRING", <.>
       "CommandTimeOut": "300" <.>
-    },
+    }
   },
   "Catalogs": [], <.>
   "Groups": {

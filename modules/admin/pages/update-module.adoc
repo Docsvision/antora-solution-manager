@@ -9,6 +9,13 @@
 
 include::webclient:ROOT:partial$excerpts.adoc[tags=what-changed]
 
+[WARNING]
+====
+Формат строки подключения к {to-sett-serv} и путь к настройкам {of-sett-serv}, указываемым в `appsettings.json`, обновлены. Начиная с {sm-config-req}, адрес необходимо указывать без префикса `ConnectAddress=`. Строка подключения (`ConnectionString`) к {to-sett-serv} и ключ API (`ApiKey`) должны быть указаны в секции "menu:DocsVision[SettingsService]" вместо текущей "menu:SolutionManager[SettingsService]". Прежний формат допускается оставить при обновлении.
+
+Когда в `appsettings.json` указана секция menu:DocsVision[SettingsService], {sm} будет использовать настройки из неё. Если секция отсутствует, используются настройки из старой секции menu:SolutionManager[SettingsService] в прежнем формате, с префиксом `ConnectAddress=`. Если настройки заданы в обеих секциях, указанные в menu:DocsVision[SettingsService] будут иметь приоритет.
+====
+
 include::6.1@platform:admin:partial$update-conditions.adoc[]
 
 include::6.1@platform:admin:partial$update.adoc[]
