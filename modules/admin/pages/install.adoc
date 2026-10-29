@@ -122,7 +122,7 @@ image::install-confirm.png[Мастер установки серверной ч
 ----
 <.> `LogLevel` -- уровень ведения журнала, настройка упразднена, используйте журналирование с помощью Nlog.
 <.> `ConnectionString` -- адрес {of-sett-serv}.
-<.> `ApiKey` -- ключ доступа к Сервису настроек, указанный в xref:6.2@settings-service:admin:install.adoc#config-file[конфигурационном файле] {of-sett-serv}.
+<.> `ApiKey` -- ключ доступа к Сервису настроек, указанный в xref:6.1@settings-service:admin:install.adoc#config-file[конфигурационном файле] {of-sett-serv}.
 <.> `ConnectionString` -- строка подключения базы данных МР, cм. подробнее <<conn-string,ниже>>.
 <.> `CommandTimeOut` -- время ожидания перед завершением попытки выполнить операцию и созданием ошибки.
 <.> `Catalogs` -- см. подробнее <<domain,Настройка работы в домене>>.
